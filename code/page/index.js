@@ -16,6 +16,8 @@ const Page = ({ title, navbar, footer, script, _relativeURL, _ID, main }) => {
         <link rel="stylesheet" href={generateUrl(`/assets/css/index.css`)} />
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
+        
+
       </head>
       <body>
         {navbar}
