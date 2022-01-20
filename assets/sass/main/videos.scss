@@ -1,6 +1,6 @@
 .main-videos {
     position: relative;
-    margin-top: 70px;
+  
    
     &-mobile-shadow{
         display: none;
@@ -96,7 +96,6 @@
 
 @media only screen and (max-width: $mobile) {
     .main-videos {
-      
 
         &-mobile-shadow{
             display: block;

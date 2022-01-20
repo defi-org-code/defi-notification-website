@@ -2,7 +2,8 @@
     @extend .grid;
     position: relative;
     margin-top: 50px;
-    padding-bottom: 160px;
+    @extend .section-margin-bottom;
+
     &-title {
         font-weight: 500;
         font-size: 24px;
@@ -45,7 +46,6 @@
 
 @media only screen and (max-width: $mobile) {
     .main-learn-more{
-        padding-bottom: 80px;
         &-link{
             &-orbs{
                 &-logo{

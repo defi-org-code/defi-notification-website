@@ -173,30 +173,37 @@ body {
 
 .title {
   font-weight: 800;
-  font-size: 90px;
-  line-height: 106px;
+  font-size: 68px;
+  line-height: 82px;
 }
 .title * {
   font-weight: 800;
-  font-size: 90px;
-  line-height: 106px;
+  font-size: 68px;
+  line-height: 82px;
+}
+
+.section-margin-bottom, .main-protocols, .main-partners, .main-media, .main-learn-more, .main-hero {
+  margin-bottom: 120px;
 }
 
 @media only screen and (max-width: 1500px) {
   .title {
-    font-size: 65px;
-    line-height: 75px;
+    font-size: 55px;
+    line-height: 68px;
   }
   .title * {
-    font-size: 65px;
-    line-height: 75px;
+    font-size: 55px;
+    line-height: 68px;
   }
 }
 @media only screen and (max-width: 700px) {
   .grid, .main-grid, .main-media, .main-learn-more, .main-videos-grid, .footer-grid {
     width: 100%;
     padding: 0px 30px;
-    overflow: hidden;
+  }
+
+  .section-margin-bottom, .main-protocols, .main-partners, .main-media, .main-learn-more, .main-hero {
+    margin-bottom: 80px;
   }
 
   .title {
@@ -622,7 +629,6 @@ body {
 }
 .main-videos {
   position: relative;
-  margin-top: 70px;
 }
 .main-videos-mobile-shadow {
   display: none;
@@ -738,7 +744,6 @@ body {
 .main-learn-more {
   position: relative;
   margin-top: 50px;
-  padding-bottom: 160px;
 }
 .main-learn-more-title {
   font-weight: 500;
@@ -775,9 +780,6 @@ body {
 }
 
 @media only screen and (max-width: 700px) {
-  .main-learn-more {
-    padding-bottom: 80px;
-  }
   .main-learn-more-link {
     width: auto;
     padding-right: 20px;
@@ -792,9 +794,7 @@ body {
   }
 }
 .main-media {
-  margin-top: 126px;
   position: relative;
-  margin-bottom: 100px;
   height: fit-content;
 }
 .main-media-mobile-shadow {
@@ -849,9 +849,6 @@ body {
   }
 }
 @media only screen and (max-width: 700px) {
-  .main-media {
-    margin-top: 80px;
-  }
   .main-media-list {
     flex-direction: column;
     align-items: center;
@@ -897,15 +894,14 @@ body {
   .main-partners-list {
     padding-top: 64px;
     flex-wrap: wrap;
-    gap: 37px;
+    gap: 30px;
   }
   .main-partners-list-item {
-    width: 140px;
-    height: 140px;
+    width: 130px;
+    height: 130px;
   }
 }
 .main-protocols {
-  margin-top: 170px;
   position: relative;
 }
 .main-protocols-shadow {
@@ -972,9 +968,6 @@ body {
   }
 }
 @media only screen and (max-width: 700px) {
-  .main-protocols {
-    margin-top: 80px;
-  }
   .main-protocols-shadow {
     display: none;
   }

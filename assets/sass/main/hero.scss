@@ -2,7 +2,8 @@
     display: flex;
     justify-content: space-between;
     padding-top: 200px;
-   
+    @extend .section-margin-bottom;
+
     &-right{
         padding-right: 160px;
     }

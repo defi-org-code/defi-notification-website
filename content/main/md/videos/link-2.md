@@ -4,4 +4,4 @@ url: https://youtu.be/PyS3A11XlWQ
 poster: /assets/images/main/aave-link.png
 ---
 
-Liquidation <br /> notification <br /> on Aave
+Open DeFi Notification <br /> Protocol - Position worth on QuickSwap

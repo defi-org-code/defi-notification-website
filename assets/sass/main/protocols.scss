@@ -1,5 +1,6 @@
 .main-protocols {
-    margin-top: 170px;
+    @extend .section-margin-bottom;
+
     position: relative;
     &-shadow{
         position: absolute;
@@ -83,7 +84,6 @@
 
 @media only screen and (max-width: $mobile) {
     .main-protocols{
-        margin-top: 80px;
         &-shadow{
             display: none;
         }
