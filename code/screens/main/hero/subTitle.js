@@ -1,7 +1,7 @@
 import React from 'react'
 import animations from '../../../../assets/js/animations'
 
-function subTitle({ _body }) {
+function SubTitle({ _body }) {
     return (
         <div className={`main-hero-subtitle`} data-aos = {animations.fadeUp}>
             {_body}
@@ -9,4 +9,4 @@ function subTitle({ _body }) {
     )
 }
 
-export default subTitle
+export default SubTitle
