@@ -1,6 +1,5 @@
 {
   "name": "orbs-website",
-  "homepage": "https://denis-mixin.github.io/defi-test/",
   "version": "1.0.0",
   "description": "Website for Orbs.com",
   "main": "index.js",
