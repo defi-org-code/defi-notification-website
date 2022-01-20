@@ -1,5 +1,5 @@
 ---
-layout: common/footer/footerLeft
+layout: common/footer/FooterLeft
 socials: 
   - ../socials/index.md
 defiUrl: https://defi.org/

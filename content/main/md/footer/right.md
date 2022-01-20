@@ -1,5 +1,5 @@
 ---
-layout: common/footer/footerRight
+layout: common/footer/FooterRight
 
 ---
 
