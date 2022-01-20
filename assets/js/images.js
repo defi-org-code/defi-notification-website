@@ -13,6 +13,7 @@ const images = {
     play: '/assets/images/main/play.svg',
     sushiLink: '/assets/images/main/sushi-link.png',
     aaveLink: '/assets/images/main/aave-link.png',
+    favicon: '/assets/images/favicon.ico',
    
     orbsLogo: '/assets/images/main/orbs-logo.png',
     

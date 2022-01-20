@@ -236,6 +236,7 @@ body {
   background: #19184C;
 }
 .navbar-left {
+  pointer-events: none;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -868,7 +869,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 80px;
+  padding-top: 60px;
 }
 .main-partners-list-item {
   width: 140px;
@@ -916,7 +917,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 80px;
+  padding-top: 60px;
   gap: 0px 50px;
 }
 .main-protocols-list-item {

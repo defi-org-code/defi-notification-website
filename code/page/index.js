@@ -1,5 +1,6 @@
 import React from "react";
 import animations from "../../assets/js/animations";
+import images from "../../assets/js/images";
 
 const Page = ({ title, navbar, footer, script, _relativeURL, _ID, main }) => {
   const generateUrl = (url) => {
@@ -9,14 +10,43 @@ const Page = ({ title, navbar, footer, script, _relativeURL, _ID, main }) => {
     <html>
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-     
+        <meta
+          content="The Open DeFi Notifications Protocol: Get Real-time Notifications on your DeFi Positions"
+          name="description"
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <link
+          href={generateUrl(images.favicon)}
+          rel="shortcut icon"
+          type="image/x-icon"
+        />
+        <meta content="" property="og:title" />
+        <meta
+          content="The Open DeFi Notifications Protocol: Get Real-time Notifications on your DeFi Positions"
+          property="og:description"
+        />
+        <meta content="" property="og:image" />
+        <meta content="" property="twitter:title" />
+        <meta
+          content="The Open DeFi Notifications Protocol: Get Real-time Notifications on your DeFi Positions"
+          property="twitter:description"
+        />
+        <meta
+          content=''
+          property="twitter:image"
+        />
+        <meta property="og:type" content="website" />
+        <meta content="summary_large_image" name="twitter:card" />
+
+
         <title>{title}</title>
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
         <link rel="stylesheet" href={generateUrl(`/assets/css/index.css`)} />
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
-        
+
 
       </head>
       <body>
@@ -31,7 +61,7 @@ const Page = ({ title, navbar, footer, script, _relativeURL, _ID, main }) => {
           ) : null}
         </div>
         {footer}
-      
+
       </body>
     </html>
   );
