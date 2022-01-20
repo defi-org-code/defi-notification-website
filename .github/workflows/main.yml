@@ -14,12 +14,12 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v2.3.1
-      - name: install cuttlebele
-        run: yarn global add cuttlebelle
+      - name: install cuttlebelle
+        run: sudo npm  install -g cuttlebelle
       - name: install dependencies
-        run: yarn install
-      - name: Build
-        run: yarn build
+        run: npm install
+      - name: Run a one-line script
+        run: npm run build
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.4
         with:
