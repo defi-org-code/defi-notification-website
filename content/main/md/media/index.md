@@ -11,4 +11,4 @@ listItems:
   - blockonomi.md
 ---
 
-Open DeFi Notifications <br /> in the Media
+Open DeFi Notification <br /> in the Media

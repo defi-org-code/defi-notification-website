@@ -6,28 +6,28 @@
 
 .title {
   font-weight: 800;
-  font-size: 68px;
-  line-height: 82px;
+  font-size: 60px;
+  line-height: 70px;
 
   * {
     font-weight: 800;
-    font-size: 68px;
-    line-height: 82px;
+    font-size: 60px;
+    line-height: 70px;
   }
 }
 
 .section-margin-bottom {
-  margin-bottom: 120px;
+  margin-bottom: 90px;
 }
 
 @media only screen and (max-width: 1500px) {
   .title {
-    font-size: 55px;
-    line-height: 68px;
+    font-size: 50px;
+    line-height: 64px;
 
     * {
-      font-size: 55px;
-      line-height: 68px;
+      font-size: 50px;
+      line-height: 64px;
     }
   }
 }
@@ -41,7 +41,7 @@
   }
 
   .section-margin-bottom {
-    margin-bottom: 80px;
+    margin-bottom: 70px;
   }
 
   .title {

@@ -1,6 +1,7 @@
 ---
 layout: screens/main/partners/Item
-url: https://kogefarm.io/vaults
-image: /assets/images/main/partners/dot-finance.png
+url: https://dot.finance/
+image: /assets/images/main/partners/dot-finance.svg
 ---
 
+Dot.Finance

@@ -11,17 +11,32 @@
         &-item {
             width: 140px;
             height: 140px;
+            background: linear-gradient(1.99deg, #FFFFFF 30.01%, rgba(255, 255, 255, 0.5) 122.8%);
+            border-radius: 50px;
 
             a {
                 width: 100%;
                 height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                text-decoration: none;
+            }
 
+            * {
+                font-weight: bold;
+                font-size: 17px;
+                color: #19184C;
             }
 
             &-img {
-                width: 100%;
-                height: 100%;
+                width: 60px;
+                height: 60px;
                 object-fit: cover;
+                border-radius: 50%;
+                overflow: hidden;
+                margin-bottom: 10px;
             }
         }
     }
@@ -30,24 +45,27 @@
 @media only screen and (max-width: 1400px) {
     .main-partners {
         &-list {
+            gap: 0px 20px;
             &-item {
-                width: 120px;
-                height: 120px;
+               zoom: 0.9;
             }
         }
     }
 }
 
-@media only screen and (max-width: $mobile){
+@media only screen and (max-width: $mobile) {
     .main-partners {
         &-list {
-            padding-top: 64px;
+            padding-top: 50px;
             flex-wrap: wrap;
             gap: 30px;
+            justify-content: space-between;
+
             &-item {
-                width: 130px;
-                height: 130px;
+                width: 140px;
+                height: 140px;
+                zoom: 0.9;
             }
         }
-    } 
+    }
 }

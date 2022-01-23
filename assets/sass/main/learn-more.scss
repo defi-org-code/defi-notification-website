@@ -14,17 +14,23 @@
         }
 
         &-title {
-            font-weight: 500;
-            font-size: 24px;
-            line-height: 28px;
+           
             width: fit-content;
-            color: #C5CFF8;
+          
             margin-bottom: 25px;
             position: relative;
+            display: flex;
+            align-items: center;
+            h4{
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 28px;
+                color: #C5CFF8;
+            }
 
             .tooltip {
-                top: 5px;
-                right: -50px;
+                position: relative;
+                margin-left: 20px;
             }
         }
 
@@ -86,4 +92,55 @@
 }
 
 
-@media only screen and (max-width: $mobile) {}
+@media only screen and (max-width: $mobile) {
+    .main-learn-more {
+        flex-direction: column;
+        overflow: hidden;
+        margin-bottom: 0px;
+        padding-bottom: 70px;
+
+
+        &-link {
+            width: 100%;
+            margin-right: 0px;
+            margin-bottom: 40px;
+
+            &-wrapper {
+                padding: 0px 20px;
+
+            }
+
+            &-title {
+                font-size: 20px;
+                margin-bottom: 15px;
+                position: relative;
+               
+
+                .tooltip {
+                    position: static;
+                    &-body {
+                        left: 20px;
+                        transform: unset;
+                        width: 100%;
+                        white-space:unset;
+                        *{
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+
+            a {
+                width: 100%;
+
+                .text-p {
+                    font-size: 14px;
+                }
+            }
+
+            &:last-child {
+                margin-bottom: 0px;
+            }
+        }
+    }
+}

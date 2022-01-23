@@ -8,7 +8,7 @@ function Link({ _relativeURL, _ID, image, url, title, tooltip, _body }) {
 
     return <div className='main-learn-more-link'>
         <section className='main-learn-more-link-title'>
-            <h4 className='main-learn-more-link-title'>{title}</h4>
+            <h4>{title}</h4>
             {tooltip}
         </section>
 

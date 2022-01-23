@@ -17,7 +17,7 @@ const images = {
     social: '/assets/images/social.png',
     tooltip: '/assets/images/main/tooltip.svg',
     orbsLogo: '/assets/images/main/orbs-logo.svg',
-    
+  
     
     heroShadow: '/assets/images/main/hero-shadow.png',
     mobile: {

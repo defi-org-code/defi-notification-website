@@ -1,6 +1,7 @@
 ---
 layout: screens/main/partners/Item
-url: https://kogefarm.io/vaults
-image: /assets/images/main/partners/dinoswap.png
+url: https://dinoswap.exchange/
+image: /assets/images/main/partners/dinoswap.svg
 ---
 
+DinoSwap

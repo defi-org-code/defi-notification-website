@@ -5,7 +5,8 @@ list:
   - quickswap.md
   - revault.md
   - trade-joe.md
-  - uniswap.md
+  - dot-finance.md
+  - dinoswap.md
   - wowswap.md
 ---
 
