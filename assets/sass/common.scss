@@ -6,13 +6,13 @@
 
 .title {
   font-weight: 800;
-  font-size: 60px;
-  line-height: 70px;
+  font-size: 50px;
+  line-height: 62px;
 
   * {
     font-weight: 800;
-    font-size: 60px;
-    line-height: 70px;
+    font-size: 50px;
+    line-height: 62px;
   }
 }
 
@@ -22,12 +22,12 @@
 
 @media only screen and (max-width: 1500px) {
   .title {
-    font-size: 50px;
-    line-height: 64px;
+    font-size: 42px;
+    line-height: 56px;
 
     * {
-      font-size: 50px;
-      line-height: 64px;
+      font-size: 42px;
+      line-height: 56px;
     }
   }
 }
