@@ -1,7 +1,7 @@
 import React from 'react';
 import animations from '../../../../assets/js/animations';
 
-function Partner({ url, image, _relativeURL, _ID }) {
+function Item({ url, image, _relativeURL, _ID }) {
     const handleUrl = (url) => {
         return `${_relativeURL(url, _ID)}`;
     }
@@ -14,4 +14,4 @@ function Partner({ url, image, _relativeURL, _ID }) {
     </li>;
 }
 
-export default Partner;
+export default Item;

@@ -2,7 +2,7 @@ import React from "react";
 import animations from "../../../assets/js/animations";
 import images from "../../../assets/js/images";
 
-const Main = ({ hero, videos, learnMore, media, _relativeURL, _ID, partners, protocols }) => {
+const Main = ({ hero, videos, learnMore, media, _relativeURL, _ID, partners, protocols, insfastructure }) => {
   const handleUrl = (url) => {
     return `${_relativeURL(url, _ID)}`;
   }
@@ -15,6 +15,7 @@ const Main = ({ hero, videos, learnMore, media, _relativeURL, _ID, partners, pro
       {videos}
       {learnMore}
       {partners}
+      {insfastructure}
       {protocols}
       {media}
       

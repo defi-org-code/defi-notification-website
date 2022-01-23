@@ -3,9 +3,10 @@
 
     &-list {
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-start;
         align-items: center;
         padding-top: 60px;
+        gap: 0px 40px;
 
         &-item {
             width: 140px;

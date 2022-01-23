@@ -13,4 +13,6 @@ partners:
   - partners/index.md
 protocols:
   - protocols/index.md
+insfastructure:
+  - insfastructure/index.md
 ---

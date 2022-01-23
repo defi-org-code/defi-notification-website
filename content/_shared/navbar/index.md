@@ -4,4 +4,4 @@ orbsUrl: https://www.orbs.com/
 defiUrl: https://defi.org
 ---
 
-Power By:
+Powered by:

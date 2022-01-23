@@ -14,8 +14,9 @@ const images = {
     sushiLink: '/assets/images/main/sushi-link.png',
     aaveLink: '/assets/images/main/aave-link.png',
     favicon: '/assets/images/favicon.ico',
-   
-    orbsLogo: '/assets/images/main/orbs-logo.png',
+    social: '/assets/images/social.png',
+    tooltip: '/assets/images/main/tooltip.svg',
+    orbsLogo: '/assets/images/main/orbs-logo.svg',
     
     
     heroShadow: '/assets/images/main/hero-shadow.png',

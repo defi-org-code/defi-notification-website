@@ -2,61 +2,66 @@
     @extend .section-margin-bottom;
 
     position: relative;
-    &-shadow{
+
+    &-shadow {
         position: absolute;
         width: 1200px;
         z-index: -1;
-      left: 50%;
-      top: 50%;
-      transform: translate(-50%, -50%);
+        left: 50%;
+
+        transform: translate(-50%);
+        top: -700px;
     }
 
     &-list {
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-start;
         align-items: center;
         padding-top: 60px;
-        gap: 0px 50px;
+        gap: 0px 30px;
 
         &-item {
             max-width: 460px;
-            width: calc(100% / 3 - 25px);
+            width: calc(100% / 4 - 25px);
             height: 130px;
             background: linear-gradient(1.99deg, #FFFFFF 30.01%, rgba(255, 255, 255, 0.5) 122.8%);
             border-radius: 50px;
+            margin-right: 20px;
 
             a {
                 width: 100%;
                 height: 100%;
                 display: flex;
                 align-items: center;
-                padding: 0px 60px 0px 40px;
-                justify-content: space-between;
+                padding-left: 30px;
+                justify-content: flex-start;
                 text-decoration: none;
 
                 p {
                     font-weight: bold;
-                    font-size: 40px;
-                    line-height: 47px;
+                    font-size: 28px;
                     color: #19184C;
                 }
             }
 
             &-img {
-                width: 90px;
-                height: 90px;
-                object-fit: contain;
+                width: 60px;
+                height: 60px;
+                object-fit: cover;
+                border-radius: 50%;
+                overflow: hidden;
+                margin-right: 20px;
             }
         }
     }
 }
 
 @media only screen and (max-width: 1600px) {
-    .main-protocols{
+    .main-protocols {
         &-list-item {
-            a{
-                p{
-                    font-size: 30px;
+            a {
+                p {
+                    font-size: 24px;
                 }
             }
         }
@@ -64,17 +69,22 @@
 }
 
 @media only screen and (max-width: 1400px) {
-    .main-protocols{
-        &-list-item {
-            height: 110px;
-            &-img{
-                width: 70px;
-                height: 70px;
-            }
-            a{
-                padding: 0px 30px 0px 30px;
-                p{
-                    font-size: 28px;
+    .main-protocols {
+        &-list{
+            gap: 0px 20px;
+            &-item {
+                height: 100px;
+    
+                &-img {
+                    width: 50px;
+                    height: 50px;
+                }
+    
+                a {
+                    padding-left: 20px;
+                    p {
+                        font-size: 18px;
+                    }
                 }
             }
         }
@@ -83,19 +93,22 @@
 
 
 @media only screen and (max-width: $mobile) {
-    .main-protocols{
-        &-shadow{
+    .main-protocols {
+        &-shadow {
             display: none;
         }
-        &-list{
+
+        &-list {
             flex-direction: column;
             gap: 50px;
             padding-top: 64px;
+
             &-item {
                 width: 100%;
                 max-width: 500px;
-                a{
-                    p{
+
+                a {
+                    p {
                         font-size: 24px;
                     }
                 }
@@ -103,4 +116,3 @@
         }
     }
 }
-

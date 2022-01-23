@@ -2,8 +2,9 @@
 layout: screens/main/protocols/index
 list:
   - ethereum.md
-  - sushi.md
-  - uniswap.md
+  - polygon.md
+  - binance.md
+  - avalanche.md
 ---
 
-Supported Protocols
+Supported Networks

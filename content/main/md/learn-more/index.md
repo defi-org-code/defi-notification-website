@@ -1,7 +1,7 @@
 ---
 layout: screens/main/learn-more/index
-title: Learn More
-url: https://www.orbs.com/Introducing-Open-DeFi-Notification-Protocol/
+links:
+  - orbs/index.md
+  - github/index.md
 ---
 
-Introducing the Open DeFi Notification Protocol

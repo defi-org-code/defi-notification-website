@@ -3,62 +3,87 @@
     position: relative;
     margin-top: 50px;
     @extend .section-margin-bottom;
-
-    &-title {
-        font-weight: 500;
-        font-size: 24px;
-        line-height: 28px;
-
-        color: #C5CFF8;
-        margin-bottom: 25px;
-    }
+    display: flex;
+    align-items: flex-start;
 
     &-link {
-        display: flex;
-        align-items: center;
-        background: linear-gradient(244.32deg, rgba(197, 207, 248, 0.17) 4.72%, rgba(255, 255, 255, 0.3) 87.52%);
-        box-shadow: 0px 24px 60px rgba(72, 62, 218, 0.24);
-        backdrop-filter: blur(32px);
-        width: 360px;
-        border-radius: 60px;
-        height: 95px;
-        padding: 0px 30px 0px 70px;
-        text-decoration: none;
-        position: relative;
+        margin-right: 90px;
 
-        &-orbs-logo {
-            position: absolute;
-            left: -10px;
-            width: 100px;
-            top: 50%;
-            transform: translate(0, -40%);
+        &:last-child {
+            margin-right: 0px;
         }
 
-        .text-p {
-            color: #15D8F9;
+        &-title {
             font-weight: 500;
-            font-size: 16px;
-            line-height: 19px;
+            font-size: 24px;
+            line-height: 28px;
+            width: fit-content;
+            color: #C5CFF8;
+            margin-bottom: 25px;
+            position: relative;
+
+            .tooltip {
+                top: 5px;
+                right: -50px;
+            }
         }
-    }
-}
 
+        &-wrapper {
+            display: flex;
+            align-items: center;
+            background: linear-gradient(244.32deg, rgba(197, 207, 248, 0.17) 4.72%, rgba(255, 255, 255, 0.3) 87.52%);
 
-@media only screen and (max-width: $mobile) {
-    .main-learn-more{
-        &-link{
-            &-orbs{
-                &-logo{
-                    width: 80px;
+            width: 100%;
+            height: 100%;
+            border-radius: 60px;
+            height: 95px;
+            padding: 0px 30px 0px 30px;
+            text-decoration: none;
+            position: relative;
+            overflow: hidden;
+
+            &:hover {
+                .main-learn-more-link-arrow {
+                    transform: translate(40px);
+                    opacity: 0;
                 }
             }
-            width: auto;
-            padding-right: 20px;
-            padding-left: 60px;
-            height: 80px;
-            .text-p{
-                font-size: 14px;
+        }
+
+        &-img {
+            width: 34px;
+            height: auto;
+            margin-right: 14px;
+
+        }
+
+        &-arrow {
+            margin-left: auto;
+            transition: 0.2s all;
+            position: relative;
+        }
+
+
+
+
+        a {
+            display: flex;
+            box-shadow: 0px 24px 60px rgba(72, 62, 218, 0.24);
+            backdrop-filter: blur(32px);
+            width: 360px;
+            height: 95px;
+            border-radius: 60px;
+            text-decoration: none;
+
+            .text-p {
+                color: #15D8F9;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 19px;
             }
         }
     }
 }
+
+
+@media only screen and (max-width: $mobile) {}

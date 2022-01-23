@@ -21,19 +21,19 @@ const Page = ({ title, navbar, footer, script, _relativeURL, _ID, main }) => {
           rel="shortcut icon"
           type="image/x-icon"
         />
-        <meta content="" property="og:title" />
+        <meta content={title} property="og:title" />
         <meta
           content="The Open DeFi Notifications Protocol: Get Real-time Notifications on your DeFi Positions"
           property="og:description"
         />
-        <meta content="" property="og:image" />
-        <meta content="" property="twitter:title" />
+        <meta content={generateUrl(images.social)} property="og:image" />
+        <meta content={title} property="twitter:title" />
         <meta
           content="The Open DeFi Notifications Protocol: Get Real-time Notifications on your DeFi Positions"
           property="twitter:description"
         />
         <meta
-          content=''
+          content={generateUrl(images.social)}
           property="twitter:image"
         />
         <meta property="og:type" content="website" />
