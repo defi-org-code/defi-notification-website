@@ -4,4 +4,4 @@ list:
   - orbs.md
 ---
 
-Infrastructure Providers
+Infrastructure Provider

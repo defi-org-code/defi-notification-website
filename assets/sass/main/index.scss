@@ -21,6 +21,7 @@
     }
     &-mobile-globe{
         display: none;
+        pointer-events: none;
     }
     &-shadow{
         position: absolute;
@@ -64,7 +65,7 @@
             display: block;
             position: absolute;
             left: 50%;
-            transform: translate(-50%, 300px);
+            transform: translate(-50%, 270px);
             top: 0%;
             width: 100vw;
             transform-origin: bottom;
