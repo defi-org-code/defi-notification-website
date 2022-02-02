@@ -26,16 +26,18 @@ const Page = ({ title, navbar, footer, script, _relativeURL, _ID, main }) => {
           content="The Open DeFi Notifications Protocol: Get Real-time Notifications on your DeFi Positions"
           property="og:description"
         />
-        <meta content={generateUrl(images.social)} property="og:image" />
+        <meta content="https://defi.org/social.png" property="og:image" />
         <meta content={title} property="twitter:title" />
+        <meta
+          property="og:image:secure_url"
+          content="https://defi.org/social.png"
+        />
         <meta
           content="The Open DeFi Notifications Protocol: Get Real-time Notifications on your DeFi Positions"
           property="twitter:description"
         />
-        <meta
-          content={generateUrl(images.social)}
-          property="twitter:image"
-        />
+        <meta name="twitter:creator" content="@defi" />
+        <meta content="https://defi.org/social.png" property="twitter:image" />
         <meta property="og:type" content="website" />
         <meta content="summary_large_image" name="twitter:card" />
 
